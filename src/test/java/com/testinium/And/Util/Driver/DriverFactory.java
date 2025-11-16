@@ -32,7 +32,7 @@ public class DriverFactory {
         properties.setProperty("appium.server.url", "http://127.0.0.1:4723");
         properties.setProperty("android.platform.name", "Android");
         properties.setProperty("android.device.name", "emulator-5554");
-        properties.setProperty("android.avd.name", "Medium_Phone_API_36.1");
+        properties.setProperty("android.avd.name", "Pixel_5");
         properties.setProperty("android.automation.name", "UiAutomator2");
         properties.setProperty("app.package", "com.mobisoft.kitapyurdu");
         properties.setProperty("implicit.wait", "10");

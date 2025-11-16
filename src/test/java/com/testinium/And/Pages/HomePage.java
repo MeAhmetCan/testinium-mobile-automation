@@ -8,7 +8,10 @@ import org.slf4j.LoggerFactory;
 public class HomePage extends TestiniumMasterPage {
     private static final Logger log = LoggerFactory.getLogger(HomePage.class);
 
-    private static TestiniumButton BTN_Giris = new TestiniumButton(PageElementModel.selectorNames.ID, "//android.view.ViewGroup[@content-desc='Giriş']");
+    private static TestiniumButton BTN_Account = new TestiniumButton(PageElementModel.selectorNames.ID, "com.mobisoft.kitapyurdu:id/btn_ic_header_account");
 
-
+    public void accountEntered(){
+        log.info("Hesabım sayfasına giriş yapılıyor...");
+        BTN_Account.click();
+    }
 }
